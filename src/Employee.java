@@ -48,7 +48,7 @@ public class Employee {
             return false;
         }
         Employee employee = (Employee) o;
-        return id == employee.id && department == employee.department && salary == employee.salary && Objects.equals(fullName, employee.fullName);
+        return department == employee.department && salary == employee.salary && Objects.equals(fullName, employee.fullName);
     }
 
     @Override
