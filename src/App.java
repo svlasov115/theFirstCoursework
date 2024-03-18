@@ -25,7 +25,7 @@ public class App {
         printEmployees();
         printFullNameOfEmployees();
         System.out.println("Сумма затрат на заработную плату в месяц: " + calculateSumOfSalaryExpensesOfEmployees());
-        System.out.println("Средняя заработная плата сотрудника в месяц: " + calculateAverageSalaries());
+        System.out.println("Средняя заработная плата сотрудников в месяц: " + calculateAverageSalaries());
         System.out.println("Сотрудник с максимальной заработной платой в месяц: " + findEmployeeWithMaxSalary());
         System.out.println("Сотрудник с минимальной заработной платой в месяц: " + findEmployeeWithMinSalary());
     }
