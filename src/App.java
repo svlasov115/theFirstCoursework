@@ -88,22 +88,14 @@ public class App {
         return (double) calculateSumOfSalaryExpensesOfEmployees() / EMPLOYEES.length;
     }
 
-    /*
-     * Метод перевода строки
-     */
-    private static void translateString() {
-        System.out.print("\n");
-    }
-
     private static void printFullNameOfEmployees() {
-        translateString();
+        System.out.println();
         System.out.println("ФИО сотрудников:");
-
 
         for (Employee employee : EMPLOYEES) {
             System.out.println(employee.getFullName());
         }
 
-        translateString();
+        System.out.println();
     }
 }
